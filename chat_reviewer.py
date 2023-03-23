@@ -10,6 +10,9 @@ import json
 import tiktoken
 from get_paper import Paper
 
+os.environ["http_proxy"] = "http://192.168.88.110:4780"
+os.environ["https_proxy"] = "http://192.168.88.110:4780"
+
 # 定义Reviewer类
 class Reviewer:
     # 初始化方法，设置属性

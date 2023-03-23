@@ -11,6 +11,9 @@ import json
 import tiktoken
 from get_paper_from_pdf import Paper
 
+#os.environ["http_proxy"] = "http://192.168.88.110:4780"
+#os.environ["https_proxy"] = "http://192.168.88.110:4780"
+
 # 定义Reader类
 class Reader:
     # 初始化方法，设置属性

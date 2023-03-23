@@ -791,7 +791,6 @@ def upload_pdf(api_keys, text, model_name, p, temperature, file):
 api_title = "api-key可用验证"
 api_description = '''<div align='left'>
 <img src='https://visitor-badge.laobi.icu/badge?page_id=https://huggingface.co/spaces/wangrongsheng/ChatPaper'>
-<img align='right' src='https://i.328888.xyz/2023/03/12/vH9dU.png' width="150">
 Use ChatGPT to summary the papers.Star our Github [🌟ChatPaper](https://github.com/kaixindelele/ChatPaper) .
 💗如果您觉得我们的项目对您有帮助，还请您给我们一些鼓励！💗
 🔴请注意：千万不要用于严肃的学术场景，只能用于论文阅读前的初筛！
@@ -814,7 +813,6 @@ title = "ChatPaper"
 # 描述
 description = '''<div align='left'>
 <img src='https://visitor-badge.laobi.icu/badge?page_id=https://huggingface.co/spaces/wangrongsheng/ChatPaper'>
-<img align='right' src='https://i.328888.xyz/2023/03/12/vH9dU.png' width="150">
 Use ChatGPT to summary the papers.Star our Github [🌟ChatPaper](https://github.com/kaixindelele/ChatPaper) .
 💗如果您觉得我们的项目对您有帮助，还请您给我们一些鼓励！💗
 🔴请注意：千万不要用于严肃的学术场景，只能用于论文阅读前的初筛！
