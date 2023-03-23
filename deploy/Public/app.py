@@ -18,6 +18,9 @@ from optimizeOpenAI import chatPaper
 import ipywidgets as widgets
 from IPython.display import display
 
+#os.environ["http_proxy"] = "http://192.168.88.110:4780"
+#os.environ["https_proxy"] = "http://192.168.88.110:4780"
+
 def parse_text(text):
     lines = text.split("\n")
     for i, line in enumerate(lines):
@@ -853,4 +856,5 @@ chatpaper_gui = gradio.Interface(fn=upload_pdf,
 # Start server
 gui = gradio.TabbedInterface(interface_list=[api_gui, chatpaper_gui],
                              tab_names=["API-key", "ChatPaper"])
-gui.launch(quiet=True, show_api=False)
+#gui.launch(quiet=True, show_api=False)
+gui.launch(server_name="0.0.0.0", server_port=7861, share=False, quiet=True, show_api=False) # 可自定义端口
