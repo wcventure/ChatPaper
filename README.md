@@ -1,10 +1,4 @@
-<div style="font-size: 1.5rem;">
-  <a href="./README.md">中文</a> |
-  <a href="./readme_en.md">English</a>
-</div>
-</br>
-
-💥💥💥面向全球，服务万千科研人的ChatPaper在线版正式上线：https://chatpaper.org/ 💥💥💥
+💥💥💥<strong>面向全球，服务万千科研人的ChatPaper**免费网页版正式上线：**[https://chatpaper.org/](https://chatpaper.org/) </strong>💥💥💥
 
 <h1 align="center">ChatPaper</h1>
 <div align="center">
@@ -30,15 +24,20 @@
       <br/>
       <a href="https://www.bilibili.com/video/BV1EM411x7Tr/"><strong>视频教程</strong></a>
         ·
-      <a href="https://huggingface.co/spaces/wangrongsheng/ChatPaper"><strong>在线体验</strong></a>
+      <a href="https://chatpaper.org/"><strong>在线体验</strong></a>
     </p>
-    <p align="center">
-      <img alt="Animation Demo" src="https://github.com/kaixindelele/ChatPaper/blob/main/images/chatpaper_0317.png" />
-    </p>
+    
   </p>
 </div>
 
-> **功能免费，代码开源，大家放心使用！** 关于API如何获取，首先你得有一个没有被封的ChatGPT账号，然后[获取Api Key](https://chatgpt.cn.obiscr.com/blog/posts/2023/How-to-get-api-key/) ,填入即可！
+|工具名称|工具作用|是否在线？|在线预览|备注|
+|:-|:-|:-|:-|:-|
+|ChatPaper|通过ChatGPT实现对**论文进行总结，帮助科研人进行论文初筛**|访问[wangrongsheng/ChatPaper](https://huggingface.co/spaces/wangrongsheng/ChatPaper) 使用|<img alt="Animation Demo" src="https://github.com/kaixindelele/ChatPaper/blob/main/images/chatpaper_0317.png" />|[原项目地址](https://github.com/kaixindelele/ChatPaper)|
+|ChatReviewer|利用ChatGPT对论文进行**预审稿**|访问[ShiwenNi/ChatReviewer](https://huggingface.co/spaces/ShiwenNi/ChatReviewer) 使用|<img alt="Animation Demo" src="https://github.com/kaixindelele/ChatPaper/blob/main/images/chatrevierer.png" />|[原项目地址](https://github.com/nishiwen1214/ChatReviewer)|
+|ChatImprovement|利用ChatGPT对**论文初稿进行润色、翻译等**|访问[wangrongsheng/ChatImprovement](https://huggingface.co/spaces/wangrongsheng/ChatImprovement) 使用|<img alt="Animation Demo" src="https://github.com/kaixindelele/ChatPaper/blob/main/images/ChatImprovement.png" />|[原项目地址](https://github.com/binary-husky/chatgpt_academic)|
+|ChatResponse|利用ChatGPT对**审稿人的提问进行回复**|暂无|暂无|[原项目地址](https://github.com/nishiwen1214/ChatReviewer)|
+
+> **所有功能免费，代码开源，大家放心使用！** 关于API如何获取，首先你得有一个没有被封的ChatGPT账号，然后[获取Api Key](https://chatgpt.cn.obiscr.com/blog/posts/2023/How-to-get-api-key/) ,填入即可！
 
 
 - [💥最新讯息](#最新讯息)
@@ -55,11 +54,10 @@
 
 ## 最新讯息
 - 🌟*2023.03.23*: chat_arxiv.py可以从arxiv网站，根据关键词，最近几天，几篇论文，直接爬取最新的领域论文了！解决了之前arxiv包的搜索不准确问题！
-- 🌟*2023.03.23*: ChatPaper终于成为完成体了！现在已经有论文总结+论文审稿+论文审稿回复等功能了！
+- 🌟*2023.03.23*: ChatPaper终于成为完成体了！现在已经有论文总结+论文润色+论文审稿+论文审稿回复等功能了！
 虽然我们上线了这个功能，但是大家用于审稿的时候，一定要注意学术伦理！千万别用它真的做审稿使用！
 
 **增加了ChatReviewer（模拟顶会审稿人，自动评审论文，⭐️千万别复制粘贴直接使用！一定要注意审稿伦理和责任！该功能仅供大家作为参考！）和ChatResponse（自动提取审稿人的问题并一对一生成回复），该部分的代码均来自于[nishiwen1214](https://github.com/nishiwen1214)的[ChatReviewer](https://github.com/nishiwen1214/ChatReviewer)项目。** 使用技巧请参考这位大佬的项目！
-- 🌟*2023.03.19*: 全新的ChatPaper网页版即将上线！
 
 ## 开发动机
 
