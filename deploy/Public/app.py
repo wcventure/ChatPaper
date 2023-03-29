@@ -855,4 +855,4 @@ chatpaper_gui = gradio.Interface(fn=upload_pdf,
 gui = gradio.TabbedInterface(interface_list=[api_gui, chatpaper_gui],
                              tab_names=["API-key", "ChatPaper"])
 #gui.launch(quiet=True, show_api=False)
-gui.launch(server_name="0.0.0.0", server_port=7861, share=False, quiet=True, show_api=False) # 可自定义端口
+gui.launch(server_name="0.0.0.0", server_port=7862, share=False, quiet=True, show_api=False) # 可自定义端口
