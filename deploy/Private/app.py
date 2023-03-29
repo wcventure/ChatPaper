@@ -12,6 +12,10 @@ from PIL import Image
 import gradio
 import markdown
 from optimizeOpenAI import chatPaper
+
+os.environ["http_proxy"] = "http://192.168.88.110:4780"
+os.environ["https_proxy"] = "http://192.168.88.110:4780"
+
 class Paper:
     def __init__(self, path, title='', url='', abs='', authers=[], sl=[]):
         # 初始化函数，根据pdf路径初始化Paper对象                
