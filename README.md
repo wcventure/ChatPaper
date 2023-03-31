@@ -1,3 +1,9 @@
+<div style="font-size: 1.5rem;">
+  <a href="./README.md">中文</a> |
+  <a href="./readme_en.md">English</a>
+</div>
+</br>
+
 💥💥💥<strong>面向全球，服务万千科研人的ChatPaper**免费网页版正式上线：**[https://chatpaper.org/](https://chatpaper.org/) </strong>💥💥💥
 
 💥💥💥<strong>网页版现在急缺一位前端开发，帮忙把开源的内容搬到网站上，欢迎有相关开发经验的同学邮件我! </strong>💥💥💥
@@ -57,6 +63,7 @@ ChatPaper全流程加速科研：论文阅读+润色+审稿+审稿回复
 
 
 ## 最新讯息
+- 🌟*2023.03.31*: 目前已经离线总结了3w+的CCF-A会议论文了，以后大家可以不用等那么久了！
 - 🌟*2023.03.23*: chat_arxiv.py可以从arxiv网站，根据关键词，最近几天，几篇论文，直接爬取最新的领域论文了！解决了之前arxiv包的搜索不准确问题！
 - 🌟*2023.03.23*: ChatPaper终于成为完成体了！现在已经有论文总结+论文润色+论文审稿+论文审稿回复等功能了！
 虽然我们上线了这个功能，但是大家用于审稿的时候，一定要注意学术伦理！千万别用它真的做审稿使用！
@@ -92,6 +99,8 @@ ChatPaper是一款论文总结工具。AI用一分钟总结论文，用户用一
 欢迎大家加入光荣的进化！
 
 ## 使用步骤
+
+### 一、以脚本方式运行
 
 Windows, Mac和Linux系统应该都可以
 
@@ -182,6 +191,49 @@ parser.add_argument("--sort", default=arxiv.SortCriterion.Relevance, help="anoth
 parser.add_argument("--save_image", default=False, help="save image? It takes a minute or two to save a picture! But pretty")
 parser.add_argument("--file_format", type=str, default='md', help="导出的文件格式，如果存图片的话，最好是md，如果不是的话，txt的不会乱")
 ```
+
+### 二、 以Flask服务运行
+
+1. 下载项目并进入项目目录
+
+```text
+git clone https://github.com/kaixindelele/ChatPaper.git
+cd ChatPaper
+```
+
+2. 在项目根目录下的 `apikey.ini` 文件中填入您的 OpenAI 密钥。
+3. 配置虚拟环境并下载依赖
+
+```text
+pip install virtualenv 
+安装虚拟环境工具
+virtualenv venv 
+新建一个名为venv的虚拟环境
+Linux/Mac下:
+source venv/bin/activate
+
+Windows下:
+.\venv\Scripts\activate.bat
+
+pip install -r requirements.txt
+```
+4. 启动服务
+
+```text
+python3 app.py
+# 启动 Flask 服务。运行此命令后，Flask 服务将在本地的 5000 端口上启动并等待用户请求。在浏览器中访问以下地址之一以访问 Flask 服务的主页：
+# http://127.0.0.1:5000/
+# 或
+# http://127.0.0.1:5000/index
+```
+
+访问 http://127.0.0.1:5000/ 后，您将看到主页。在主页上，您可以点击不同的链接来调用各种服务。您可以通过修改链接中的参数值来实现不同的效果。有关参数详细信息，请参阅上一步骤中的详细介绍
+
+![image-20230331042557655](/Users/jessytsui/Library/Application Support/typora-user-images/image-20230331042557655.png)
+
+
+
+
 
 ## 在线部署
 
@@ -281,6 +333,11 @@ os.environ["https_proxy"] = "http://<代理ip>:<代理端口>"
 
 这种情况只能用新号了。另外一定要注意一个号尽量不要多刷，节点一定要靠谱，千万不能用大陆和香港的节点，用了就寄。
 
+4. Https通信错误：
+![KBVVRL`KI560X~$27GLDQYI](https://user-images.githubusercontent.com/28528386/229026391-7cfacf76-e18c-4ae3-a8d5-b8736e8dd056.jpg)
+
+这个报错大概率是节点不够干净。如果有大佬知道具体原因，欢迎挂issues
+
 ## 项目致谢
 
 本项目三天一千star的时刻，我补一下对这个项目的促成的各位致谢！
@@ -296,6 +353,7 @@ os.environ["https_proxy"] = "http://<代理ip>:<代理端口>"
 江湖人称 GoogleChat.
 9. 还得感谢GitHub官方，帮我们这个项目列入了[热榜第五](https://github.com/trending)，获得了大量的关注！
 10. 后面我们整个项目流程打通，需要感谢同样是中科院的同学们开发的[chatgpt_academic](https://github.com/binary-husky/chatgpt_academic)，我们在他们的基础上做了润色部分。以及[nishiwen1214](https://github.com/nishiwen1214)的[ChatReviewer](https://github.com/nishiwen1214/ChatReviewer)，补齐了我们的审稿和审稿回复。
+11. 感谢[SilenceEagle](https://github.com/SilenceEagle/paper_downloader)提供的CCF-A的论文数据库，我们已经离线总结了3w+的论文了。
 
 ## 赞助我们
 
