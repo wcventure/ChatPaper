@@ -4,6 +4,11 @@
 </div>
 </br>
 
+💥💥💥<strong>7K星了，发布一个猫娘版提示词，希望大家一起让猫娘活起来~：[脚本：chat_arxiv_maomao.py](https://github.com/kaixindelele/ChatPaper/blob/main/chat_arxiv_maomao.py)， [总结图片](https://github.com/kaixindelele/ChatPaper/blob/main/images/maomao.png) </strong>
+  
+</details>
+
+
 🌿🌿🌿<strong>使用卡顿？请Fork到自己的Space，轻松使用：<a href="https://huggingface.co/spaces/wangrongsheng/ChatPaper?duplicate=true"><img src="https://bit.ly/3gLdBN6" alt="Duplicate Space"></a></strong>
 
 💥💥💥<strong>面向全球，服务万千科研人的ChatPaper**免费网页版正式上线：**[https://chatpaper.org/](https://chatpaper.org/) </strong>
@@ -13,7 +18,7 @@
 <h1 align="center">ChatPaper</h1>
 <div align="center">
   <a href="https://github.com/kaixindelele/ChatPaper">
-    <img src="https://github.com/kaixindelele/ChatPaper/blob/main/images/home.png" alt="Logo" height="210">
+    <img src="https://github.com/kaixindelele/ChatPaper/blob/main/images/home.png">
   </a>
 
   <p align="center">
@@ -134,7 +139,7 @@ python chat_paper.py --query "chatgpt robot" --filter_keys "chatgpt robot" --max
 
 更准确的脚本是chat_arxiv.py，使用方案，命令行更加简洁：
 ```python
-python chat_arxiv.py --query "chatgpt robot" --page_num 2 --max_results 3 --days 2
+python chat_arxiv.py --query "chatgpt robot" --page_num 2 --max_results 3 --days 10
 ```
 
 其中query仍然是关键词，page_num是搜索的页面，每页和官网一样，最大是50篇，max_results是最终总结前N篇的文章，days是选最近几天的论文，严格筛选！
@@ -161,6 +166,20 @@ python chat_paper.py --pdf_path "demo.pdf"
 ```python
 python chat_paper.py --pdf_path "your_absolute_path"
 ```
+
+4.6. 谷歌学术论文整理： 运行google_scholar_spider.py， 比如：
+
+```
+python google_scholar_spider.py --kw "deep learning" --nresults 30 --csvpath "./data" --sortby "cit/year" --plotresults 1
+```
+
+此命令在Google Scholar上搜索与“deep learning”相关的文章，检索30个结果，将结果保存到“./data”文件夹中的CSV文件中，按每年引用次数排序数据，并绘制结果。
+
+具体使用和参数请参考https://github.com/JessyTsu1/google_scholar_spider
+
+
+
+---
 
 另外注意，目前这个不支持**综述类**文章。
 
@@ -383,6 +402,7 @@ os.environ["https_proxy"] = "http://<代理ip>:<代理端口>"
 9. 还得感谢GitHub官方，帮我们这个项目列入了[热榜第五](https://github.com/trending)，获得了大量的关注！
 10. 后面我们整个项目流程打通，需要感谢同样是中科院的同学们开发的[chatgpt_academic](https://github.com/binary-husky/chatgpt_academic)，我们在他们的基础上做了润色部分。以及[nishiwen1214](https://github.com/nishiwen1214)的[ChatReviewer](https://github.com/nishiwen1214/ChatReviewer)，补齐了我们的审稿和审稿回复。
 11. 感谢[SilenceEagle](https://github.com/SilenceEagle/paper_downloader)提供的CCF-A的论文数据库，我们已经离线总结了3w+的论文了。
+12. 感谢里屋社区的开源和整理中文数据集[MNBVC](https://github.com/esbatmop/MNBVC)，希望国产中文大模型早日起飞！
 
 ## 赞助我们
 
