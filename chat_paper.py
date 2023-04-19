@@ -16,9 +16,6 @@ import tiktoken
 
 from get_paper_from_pdf import Paper
 
-os.environ["http_proxy"] = "http://192.168.88.110:4780"
-os.environ["https_proxy"] = "http://192.168.88.110:4780"
-
 PaperParams = namedtuple(
     "PaperParams",
     [
