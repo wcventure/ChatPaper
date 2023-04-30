@@ -4,6 +4,9 @@
 </div>
 </br>
 
+💥💥💥<strong>**唯一官方网站：**[https://chatpaper.org/](https://chatpaper.org/)，以及小白教程【ChatPaper网页版使用小白教程-哔哩哔哩】 https://b23.tv/HpDkcBU
+ </strong>
+ 
 💥💥💥<strong> 4.22 为了庆祝ChatPaper获得一万⭐，我们将联合两位同学，推出两个AI辅助文献总结工具，第一个是[auto-draft](https://github.com/CCCBora/auto-draft)，AI自动搜集整理出文献总结！第二个是综述文章归纳，后面会上线我们网页版。敬请期待
 </strong>
 
@@ -15,9 +18,6 @@
 </strong>
 
 🌿🌿🌿<strong>使用卡顿？请Fork到自己的Space，轻松使用：<a href="https://huggingface.co/spaces/wangrongsheng/ChatPaper?duplicate=true"><img src="https://bit.ly/3gLdBN6" alt="Duplicate Space"></a></strong>
-
-💥💥💥<strong>面向全球，服务万千科研人的ChatPaper**免费网页版正式上线：**[https://chatpaper.org/](https://chatpaper.org/)，以及小白教程【ChatPaper网页版使用小白教程-哔哩哔哩】 https://b23.tv/HpDkcBU
- </strong>
 
 💥💥💥<strong>荣胜同学今天发布了一个非常有意思的工作[ChatGenTitle](https://github.com/WangRongsheng/ChatGenTitle)，提供摘要生成标题，基于220wArXiv论文的数据微调的结果！ </strong>
 
@@ -57,7 +57,7 @@
 |:-|:-|:-|:-|:-|
 |ChatPaper|通过ChatGPT实现对**论文进行总结，帮助科研人进行论文初筛**|访问[wangrongsheng/ChatPaper](https://chatpaper.org/) 使用|<img alt="Animation Demo" src="https://github.com/kaixindelele/ChatPaper/blob/main/images/chatpaper_0317.png" />|[原项目地址](https://github.com/kaixindelele/ChatPaper)|
 |ChatReviewer|利用ChatGPT对论文进行**优缺点分析，提出改进建议**|访问[ShiwenNi/ChatReviewer](https://huggingface.co/spaces/ShiwenNi/ChatReviewer) 使用|<img alt="Animation Demo" src="https://github.com/kaixindelele/ChatPaper/blob/main/images/chatrevierer.png" />|[原项目地址](https://github.com/nishiwen1214/ChatReviewer)|
-|ChatImprovement|利用ChatGPT对**论文初稿进行润色、翻译等**|访问[wangrongsheng/ChatImprovement](https://huggingface.co/spaces/wangrongsheng/ChatImprovement) 使用|<img alt="Animation Demo" src="https://github.com/kaixindelele/ChatPaper/blob/main/images/ChatImprovement.png" />|[原项目地址](https://github.com/binary-husky/chatgpt_academic)|
+|ChatImprovement|利用ChatGPT对**论文初稿进行润色、翻译等**|访问[qingxu98/gpt-academic](https://huggingface.co/spaces/qingxu98/gpt-academic) 使用|<img alt="Animation Demo" src="https://github.com/kaixindelele/ChatPaper/blob/main/images/ChatImprovement.png" />|[原项目地址](https://github.com/binary-husky/chatgpt_academic)|
 |ChatResponse|利用ChatGPT对**审稿人的提问进行回复**|访问[ShiwenNi/ChatResponse](https://huggingface.co/spaces/ShiwenNi/ChatResponse) 使用|<img alt="Animation Demo" src="https://github.com/kaixindelele/ChatPaper/blob/main/images/chatresponse.jpg" />|[原项目地址](https://github.com/nishiwen1214/ChatReviewer)|
 |ChatGenTitle|利用百万arXiv论文元信息训练出来的论文题目生成模型，**根据论文摘要生成合适题目**|<a href="https://drive.google.com/file/d/1akrC4-YnYdiyD1_VK-92hncN7HS0FLf5/view?usp=sharing" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>|<img alt="Animation Demo" src="https://github.com/kaixindelele/ChatPaper/blob/main/images/chatgentitle.png" />|[原项目地址](https://github.com/WangRongsheng/ChatGenTitle)|
 
