@@ -5,6 +5,15 @@
 </br>
 
 
+💥💥💥<strong>7.2 最近不少用户提issue说免费key都已经过期了，想充值也没有信用卡。
+我和贩子老哥们商量了一下，进了一批（100个）全网最低价的120刀的key，加价2元，尝试提供给大家，因为这个客单价比较低，我只保证首登，有需要的朋友可以试试下面的链接：
+http://www.haifaka.cn/details/C5A3B27F20BA3F47
+当然，因为这个几乎不挣多少钱，如果问题比较多，后面我会取消这个服务。
+ </strong>
+ 
+
+
+
 💥💥💥<strong>5.10 我们网页版的即将进行更新，现在的总结效果如链接所示：[Sergey Levine近两个月12篇文章总结-ChatPaperDaily6](https://zhuanlan.zhihu.com/p/628338077)，总结的内容更加全面且准确，更多的细节，更多的步骤，更多实验结果，且尽可能的降低瞎编. 
  </strong>
 
@@ -463,3 +472,18 @@ pip install urllib3==1.25.11
 <a href="https://github.com/kaixindelele/ChatPaper/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=kaixindelele/ChatPaper" />
 </a>
+
+
+## 项目引用：
+Please cite the repo if you use the data or code in this repo.
+
+```
+@misc{ChatPaper,
+  author={Yongle Luo, Rongsheng Wang, Peter Gam, Jiaxi Cui, circlestarzero, Shiwen Ni, Jaseon Quanta, Qingxu Fu, Siyuan Hou},
+  title = {ChatPaper: Use LLM to summarize papers.},
+  year = {2023},
+  publisher = {GitHub},
+  journal = {GitHub repository},
+  howpublished = {\url{https://github.com/kaixindelele/ChatPaper}},
+}
+```
