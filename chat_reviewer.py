@@ -12,9 +12,9 @@ from get_paper import Paper
 import jieba
 from collections import namedtuple
 
-os.environ['OPENAI_PROXY'] = "http://192.168.88.110:4780"
-os.environ["http_proxy"] = "http://192.168.88.110:4780"
-os.environ["https_proxy"] = "http://192.168.88.110:4780"
+os.environ['OPENAI_PROXY'] = "http://127.0.0.1:4780"
+os.environ["http_proxy"] = "http://127.0.0.1:4780"
+os.environ["https_proxy"] = "http://127.0.0.1:4780"
 args = ""
 
 ReviewerParams = namedtuple(
