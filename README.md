@@ -4,23 +4,17 @@
 </div>
 </br>
 
+💥💥💥<strong> 7.9号，师弟[red-tie](https://github.com/red-tie)在[auto-draft](https://github.com/CCCBora/auto-draft)的基础上，优化了一款[一键文献综述](https://github.com/kaixindelele/ChatPaper/tree/main/auto_survey)的功能。
+
+适用于大家对具体某个领域快速掌握，并且支持直接生成中文文献调研报告。文件配置简单，欢迎大家使用和反馈！
+
+ </strong>
+
 💥💥💥<strong> 7.5号，昨天我做了一个新的小玩具：[ChatSensitiveWords](https://github.com/kaixindelele/ChatSensitiveWords)，利用LLM+敏感词库，来自动判别是否涉及敏感词。
 
 已经在学术版GPT网页端上线，欢迎LLM的开发者一起完善这个工作。
 
  </strong>
-
-
-💥💥💥<strong> 7.4号，炸裂，我已经取消了这个服务了，刚开始，openai就大批量封号，心态炸裂。首登就封的几位同学麻烦QQ联系我。
-
-7.2 最近不少用户提issue说免费key都已经过期了，想充值也没有信用卡。
-我和贩子老哥们商量了一下，进了一批（100个）全网最低价的120刀的key，加价2元，尝试提供给大家，因为这个客单价比较低，我只保证首登，有需要的朋友可以试试下面的链接：
-http://www.haifaka.cn/details/C5A3B27F20BA3F47
-当然，因为这个几乎不挣多少钱，如果问题比较多，后面我会取消这个服务。
- </strong>
- 
-
-
 
 💥💥💥<strong>5.10 我们网页版的即将进行更新，现在的总结效果如链接所示：[Sergey Levine近两个月12篇文章总结-ChatPaperDaily6](https://zhuanlan.zhihu.com/p/628338077)，总结的内容更加全面且准确，更多的细节，更多的步骤，更多实验结果，且尽可能的降低瞎编. 
  </strong>
@@ -76,9 +70,9 @@ http://www.haifaka.cn/details/C5A3B27F20BA3F47
 
 |工具名称|工具作用|是否在线？|在线预览|备注|
 |:-|:-|:-|:-|:-|
-|ChatPaper|通过ChatGPT实现对**论文进行总结，帮助科研人进行论文初筛**|访问[wangrongsheng/ChatPaper](https://chatpaper.org/) 使用|<img alt="Animation Demo" src="https://github.com/kaixindelele/ChatPaper/blob/main/images/chatpaper_0317.png" />|[原项目地址](https://github.com/kaixindelele/ChatPaper)|
+|ChatPaper|通过ChatGPT实现对**论文进行总结，帮助科研人进行论文初筛**|访问[chatpaper.org](https://chatpaper.org/) 使用|![F LJTRX$DNFU`KR M7{E6Q](https://github.com/kaixindelele/ChatPaper/assets/28528386/ceda14e8-7330-40d2-859e-0d39d99a2dfb) |[原项目地址](https://github.com/kaixindelele/ChatPaper)|
 |ChatReviewer|利用ChatGPT对论文进行**优缺点分析，提出改进建议**|访问[ShiwenNi/ChatReviewer](https://huggingface.co/spaces/ShiwenNi/ChatReviewer) 使用|<img alt="Animation Demo" src="https://github.com/kaixindelele/ChatPaper/blob/main/images/chatrevierer.png" />|[原项目地址](https://github.com/nishiwen1214/ChatReviewer)|
-|ChatImprovement|利用ChatGPT对**论文初稿进行润色、翻译等**|访问[qingxu98/gpt-academic](https://huggingface.co/spaces/qingxu98/gpt-academic) 使用|<img alt="Animation Demo" src="https://github.com/kaixindelele/ChatPaper/blob/main/images/ChatImprovement.png" />|[原项目地址](https://github.com/binary-husky/chatgpt_academic)|
+|ChatImprovement|利用ChatGPT对**论文初稿进行润色、翻译等**|访问[学术版GPT](http://academic.chatwithpaper.org/) 使用|![网页版](https://github.com/kaixindelele/ChatPaper/assets/28528386/d6cf75e7-b2a3-43c2-8d48-4174c9ee3560)|[原项目地址](https://github.com/binary-husky/chatgpt_academic)|
 |ChatResponse|利用ChatGPT对**审稿人的提问进行回复**|访问[ShiwenNi/ChatResponse](https://huggingface.co/spaces/ShiwenNi/ChatResponse) 使用|<img alt="Animation Demo" src="https://github.com/kaixindelele/ChatPaper/blob/main/images/chatresponse.jpg" />|[原项目地址](https://github.com/nishiwen1214/ChatReviewer)|
 |ChatGenTitle|利用百万arXiv论文元信息训练出来的论文题目生成模型，**根据论文摘要生成合适题目**|<a href="https://drive.google.com/file/d/1akrC4-YnYdiyD1_VK-92hncN7HS0FLf5/view?usp=sharing" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>|<img alt="Animation Demo" src="https://github.com/kaixindelele/ChatPaper/blob/main/images/chatgentitle.png" />|[原项目地址](https://github.com/WangRongsheng/ChatGenTitle)|
 
